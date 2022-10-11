@@ -6,8 +6,10 @@
   background-color: #fff;
   }*/
 /*Especificidad: 001*/
-nav > a {
-  color: #fff;
-  font-family: Tahoma, sans-serif;
-  
-}
+/*h1 {
+  color: #fff;    
+  background-color:#FF5733; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+  }*/

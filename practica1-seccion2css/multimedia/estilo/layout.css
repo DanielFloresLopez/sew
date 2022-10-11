@@ -1,0 +1,74 @@
+/*Plantilla CSS para práctica, Daniel Flores López, UO282894*/
+
+header { grid-area: header; }
+nav { grid-area: nav; }
+main { grid-area: main; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
+
+/*Especificidad: 001*/
+header {
+  font-size: larger;
+  color: #eee;    
+  background-color:#A66CFF; 
+  text-transform: capitalize;
+  padding: 1em; 
+  text-align: left;     
+}
+/*Especificidad: 001*/
+nav {
+  font-size: medium;
+  color: #fff;    
+  background-color:#9C9EFE; 
+  text-transform: capitalize;
+  padding: 1em; 
+  text-align: center;
+   
+}
+/*Especificidad: 001*/
+main {
+  font-size: small;
+  color: #333;    
+  background-color:#AFB4FF; 
+  padding: 1em; 
+  text-align: left;     
+}
+/*Especificidad: 001*/
+section {
+  
+  font-size: small;
+  color: #333;    
+  background-color:#B1E1FF; 
+  padding: 1em; 
+  text-align: left;     
+}
+/*Especificidad: 001*/
+footer {
+  font-size: medium;
+  color: #555;    
+  background-color:#9C9EFE; 
+  padding: 1em; 
+  text-align: left;     
+}
+/*Especificidad: 001*/
+aside {
+  font-size: medium;
+  color: #555;    
+  background-color:#AFB4FF; 
+  padding: 1em; 
+  text-align: center;     
+}
+
+/*Especificidad: 001*/
+body {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header'
+  'nav main main main aside aside'
+  'nav footer footer footer footer footer';
+  font-family: Tahoma, sans-serif;
+  color: white;
+  background-color: #B1E1FF;
+  gap :1em;
+}
+
