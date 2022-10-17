@@ -4,17 +4,23 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Formulario ejemplo</title>
+    <title>Danos tu opinión</title>
     <meta name ="author" content ="Daniel Flores López-UO282894" />
     <meta name ="description" content ="Formulario ejemplo" />
     <meta name ="keywords" content ="forms, formulario" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
-    <link rel = "stylesheet" type="text/css" href="multimedia/estilo/layout.css"/> 
+    <link rel = "stylesheet" type="text/css" href="estilo/layout.css"/> 
+    <link rel = "stylesheet" type="text/css" href="estilo/estilo.css"/> 
 </head>
 
 <body>
     <header>
         <p>ASP.Net Core for doomies</p>
+        <picture>
+            <source media="(min-width: 360px)"  srcset="multimedia/images/NET_Core_Logo1.png"/>
+            <source srcset="multimedia/images/NET_Core_Logo2.png"/>
+            <img src="multimedia/images/NET_Core_Logo1.png" alt="Logo de la página"/>
+        </picture>
     </header>
     <nav>
         <a href="index.html"><p>Definición</p></a>
@@ -39,11 +45,11 @@
             <p><label>Submit <input type=submit></label></p>
         </form>
     </main>
+    <aside></aside>
     <footer>
-        <ul title="Referencias externas" >
-             <li><a href="https://www.bravent.net/que-es-asp-net-core/"> Bravent</a></li>
-             <li><a href="https://openwebinars.net/blog/que-es-net-core/">Openwebinars.net</a></li>
-        </ul>
+        <p>Referencias externas</p>
+        <a href="https://www.bravent.net/que-es-asp-net-core/"><p>Bravent</p></a>
+        <a href="https://openwebinars.net/blog/que-es-net-core/"><p>Openwebinars.net</p></a>
     </footer>
 </body>
 </html>
