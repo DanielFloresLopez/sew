@@ -1,0 +1,174 @@
+/*Hoja de estilo para las características básicas, Daniel Flores López, UO282894*/
+
+/*Especificidad: 001*/
+body {
+  font-size: 1em;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  background-color: #783eea;
+}
+
+/*Especificidad: 001*/
+header {
+  font-size: 1.5em;
+  color: #eee;  
+  background-color:#783eea; 
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 0.8em;
+}
+
+/*Especificidad: 001*/
+nav {
+  font-size: 1em;
+  color: #000;    
+  background-color:#eee; 
+  text-transform: capitalize;
+  text-align: left;
+   
+}
+/*Especificidad: 001*/
+main {
+  color: #333;    
+  background-color:#fff; 
+  text-align: left;     
+}
+
+/*Especificidad: 001*/
+footer {
+  font-size: 1em;
+  color: #fff;
+  background-color:#5c38e0; 
+  text-transform: capitalize;
+  font-weight: bold;     
+}
+/*Especificidad: 001*/
+aside {
+  font-size: 0.75em;
+  color: #555;    
+  background-color:#fff; 
+  text-align: center;     
+}
+
+
+/*Especificidad: 001*/
+article {
+  padding: 1.5em;
+  color: #333;    
+  background-color: #fff;
+  text-align: center;     
+}
+
+
+
+video{
+  width: 50%;
+  height: 50%;
+}
+
+table{
+  width: 90%;
+  border: 0.4em solid #5c38e0;
+}
+td, th {
+  border: 0.2em solid #783eea;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+}
+
+
+
+h1{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+h2{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*Especificidad: 001*/
+a {   
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+p{
+  padding: 1em;
+}
+
+ul{
+  list-style: square url('../multimedia/images/NET_Core_Logo3.png');
+  line-height: 2.5em;
+}
+
+article > a{
+  padding: 2em;
+  color: #fff;
+  background-color: #5c38e0;
+  width: 40%;
+  border-color: #000;
+  border-radius: 1em;
+  
+}
+
+article > h2 {
+  text-align: left;
+  padding: 0.5em;
+}
+
+article >a:hover, section >a:active{
+  color: #5c38e0;
+  background-color: #fff;
+}
+
+
+nav > a {
+  background-color: #eee;
+  color: #000;
+  font-family: Tahoma, sans-serif;
+
+}
+nav > a:hover{
+  background-color: #eee;
+  color: #888;
+}
+nav > a:active{
+  background-color: #eee;
+  color: #aaa;
+  text-decoration: underline;
+}
+
+p > a{
+  background-color: #fff;
+  color: blue;
+}
+footer > a{
+  background-color: #5c38e0;
+  color: #fff;
+}
+footer > a:hover{
+  background-color: #5c38e0;
+  color: #888;
+}
+footer > a:active{
+  background-color: #5c38e0;
+  color: #aaa;
+  text-decoration: underline;
+}
+footer > a:visited{
+  background-color: #5c38e0;
+  color: #fff;
+  text-decoration: none;
+}
+nav >p {
+  text-decoration: underline;
+}
+
+p > a:hover, p > a:active{
+  background-color: #fff;
+  color: red;
+}
+
+

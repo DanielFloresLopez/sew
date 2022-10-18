@@ -1,0 +1,13 @@
+/*Plantilla CSS para práctica, Daniel Flores López, UO282894*/
+/*Especificidad: 001*/
+/*body {
+  font-family: Tahoma, sans-serif;
+  color: #818181;
+  background-color: #fff;
+  }*/
+/*Especificidad: 001*/
+nav > a {
+  color: #fff;
+  font-family: Tahoma, sans-serif;
+  
+}
