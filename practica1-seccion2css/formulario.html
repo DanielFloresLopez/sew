@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Danos tu opinión</title>
+    <meta name ="author" content ="Daniel Flores López-UO282894" />
+    <meta name ="description" content ="Formulario ejemplo" />
+    <meta name ="keywords" content ="forms, formulario" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" type="text/css" href="estilo/layout.css"/> 
+    <link rel = "stylesheet" type="text/css" href="estilo/estilo.css"/> 
+</head>
+
+<body>
+    <header>
+        <h1>ASP.Net Core for doomies</h1>
+        <picture>
+            <source media="(min-width: 360px)"  srcset="multimedia/images/NET_Core_Logo1.png"/>
+            <source srcset="multimedia/images/NET_Core_Logo2.png"/>
+            <img src="multimedia/images/NET_Core_Logo1.png" alt="Logo de la página"/>
+        </picture>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Definición</a></li>
+            <li><a href="caracteristicas.html">Beneficios sobre su antecesor</a></li>
+            <li><a  href = "tabla.html">Versiones</a></li>
+            <li><a  href = "formulario.html">Encuesta</a></li>
+        </ul>
+        
+    </nav>
+    <main>
+        <h1>Encuesta</h1>
+        <article>
+            <h2>
+                Complete nuestra Encuesta
+            </h2>
+            <picture>
+                <source media="(min-width: 1240px)"  srcset="multimedia/images/formulario.png"/>
+                <source media="(min-width: 960px)" srcset="multimedia/images/formulario1.png"/>
+                <source srcset="multimedia/images/formulario2.png"/>
+                <img src="multimedia/images/formulario.png" alt="Imagen formulario"/>
+            </picture>
+            <p> Queremos hacer que nuestra página sea cada vez mejor y saber quien consume esta. Para ayudarnos con este propósito, complete nuestra encuesta.</p>
+            <audio controls>
+                <source src="multimedia/audio/completaLosDatos.mp3" type="audio/mp3">
+            </audio>
+        </article>
+        <section>
+            <h2>Complete con sus datos</h2>
+            <form>
+                <p><label>Nombre: <input type=text></label></p>
+                <p><label>Contraseña: <input type=password></label></p>
+                <p><label>Email: <input type=email></label></p>
+                <p><label>Fecha: <input type=date></label></p>
+                <fieldset>
+                    <legend> ¿Te ha gustado el contenido de esta web </legend>
+                    <p><label> <input type=radio name=size> Sí </label></p>
+                    <p><label> <input type=radio name=size> No </label></p>
+                    <p><label> <input type=radio name=size> Todavía no la he usado </label></p>
+                </fieldset>
+                <p><label><input type=checkbox> Soy mayor de 13 años y estoy de acuerso en compartir mi información</label></p>
+                <p><label> <input type=submit name=submitBotton> Enviar formulario</label></p>
+                
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Referencias externas</p>
+        <ul>
+            <li>
+                <a href="https://www.bravent.net/que-es-asp-net-core/">Bravent</a>
+                
+            </li>
+            <li>
+                <a href="https://openwebinars.net/blog/que-es-net-core/">Openwebinars.net</a>
+            </li>
+            
+        </ul>
+    
+    </footer>
+</body>
+</html>
