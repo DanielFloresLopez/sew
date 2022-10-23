@@ -176,6 +176,11 @@ td, th {
   color: #000;
 }
 
+legend{
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+}
 
 /*Especificidad: 002*/
 main > h1{
