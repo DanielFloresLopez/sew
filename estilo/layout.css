@@ -1,0 +1,36 @@
+/*Hoja de estilo del layout, Daniel Flores López, UO282894*/
+
+header { grid-area: header; }
+nav { grid-area: nav; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+picture {grid-area: img;}
+p {grid-area: texto;}
+
+
+/*Especificidad: 001*/
+header, nav, main, footer, aside {
+  padding: 1em;     
+}
+
+
+/*Especificidad: 001*/
+body {
+  display: grid;
+  grid-template-areas: 
+  'header header'
+  'nav main'
+  'footer footer';
+}
+/*Especificidad: 001*/
+article, aside, section {
+  display:flex;
+  flex-wrap:wrap; 
+}
+
+/*Especificidad: 001*/
+header {
+  display: grid;
+  grid-template-areas: 
+  'texto img';
+}

@@ -1,0 +1,24 @@
+/*Hoja de estilo para las características básicas, Daniel Flores López, UO282894*/
+
+
+/*Especificidad: 001*/
+table{
+  width: 50%;
+  height: 50%;
+  border: 0.4em solid #5c38e0;
+  border-radius: 0.5em;   
+}
+
+/*Especificidad 001, 001*/
+td, th {
+  border: 0.2em solid #783eea;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  background-color: #eee;
+  color: #000;
+}
+
+
+
+
+
