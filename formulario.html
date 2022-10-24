@@ -67,19 +67,24 @@
                     <label for="fecha">Fecha de nacimiento: 
                         <input type=date id="fecha"></label>
                 </p>
+                <p>
+                    <label for="rango">Profundidad del contenido de la página
+                        <input id="rango" type="range">
+                    </label>
+                </p>
                 <fieldset>
                     <legend> ¿Te ha gustado el contenido de esta web? </legend>
-                    <p><label> <input type=radio name=size> Sí </label></p>
-                    <p><label> <input type=radio name=size> No </label></p>
-                    <p><label> <input type=radio name=size> Todavía no la he usado </label></p>
+                    <p><label for="respuestaSi"> Sí <input type=radio name=size id="respuestaSi"> </label></p>
+                    <p><label for="respuestaNo"> No <input type=radio name=size id="respuestaNo"> </label></p>
+                    <p><label for="respuestaSinUsar"> Todavía no la he usado <input type=radio name=size id="respuestaSinUsar"> </label></p>
                 </fieldset>
                 <p>
                     <label for="checkbox">Soy mayor de 13 años y estoy de acuerso en compartir mi información
                         <input type=checkbox id="checkbox"></label>
                 </p>
                 <p>
-                    <label for="enviar"> Enviar formulario
-                        <input type=submit id="enviar"></label>
+                    <label for="enviar"> Confirme aqui su formulario
+                        <input type=submit id="enviar" value="Enviar sus respuestas"></label>
                 </p>
                 
             </form>
