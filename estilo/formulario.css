@@ -1,10 +1,9 @@
-/*Hoja de estilo para las características básicas, Daniel Flores López, UO282894*/
+/*Hoja de estilo para el fromulario, Daniel Flores López, UO282894*/
 
 
 /*Especificidad: 001*/
 form{
   background: #783eea; 
-  color: #fff;
   padding : 1rem 1.5rem;
   border-radius: 3em;
   width: 100%;

@@ -20,6 +20,7 @@ body {
   grid-template-areas: 
   'header header'
   'nav main'
+  'nav main'
   'footer footer';
 }
 /*Especificidad: 001*/

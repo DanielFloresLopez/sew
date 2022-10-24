@@ -1,11 +1,10 @@
 /*Hoja de estilo para las características básicas, Daniel Flores López, UO282894*/
 
-/*Especificidad: 001, 001*/
-footer, header{
+/*Especificidad: 001, 001, 001*/
+body, footer, header{
   color: white;
-  background-color: rgba(204, 204, 204, 0);
+  background-color: #783eea;
 }
-
 /*Especificidad: 001*/
 body {
   font-size: 1em;
