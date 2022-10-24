@@ -1,0 +1,242 @@
+/*Hoja de estilo para las características básicas, Daniel Flores López, UO282894*/
+
+/*Especificidad: 001, 001, 001*/
+body, footer, header{
+  color: white;
+  background-color: #783eea;
+}
+
+/*Especificidad: 001*/
+body {
+  font-size: 1em;
+  font-family: Tahoma, sans-serif;
+  background: #783eea; 
+  
+}
+
+/*Especificidad: 001, 001*/
+nav, main{
+  border-radius: 1rem;
+}
+
+/*Especificidad: 001*/
+header {
+  font-size: 1.25em;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 0.8em;
+}
+
+/*Especificidad: 001*/
+nav {
+  font-size: 1em;
+  color: #000;    
+  background-color:#eee; 
+  text-transform: capitalize;
+  text-align: left;
+   
+}
+
+/*Especificidad: 001*/
+main {
+  color: #333;    
+  background-color:#fff; 
+  text-align: left;     
+}
+
+/*Especificidad: 001*/
+footer {
+  font-size: 1em;
+  text-transform: capitalize;
+  font-weight: bold;     
+}
+
+/*Especificidad: 004*/
+nav > ul > li > a {
+  background-color: transparent;
+  line-height: 2.5em;
+  color: #000;
+
+}
+
+/*Especificidad: 001, 001*/
+article, section{
+  padding: 1.5em;
+}
+
+
+/*Especificidad: 001*/
+article {
+  color: #333;
+  background-color: #fff;      
+}
+
+/*Especificidad: 001*/
+section{
+  background-color: rgba(204, 204, 204, 0.473);
+  color: black;
+  border-radius: 1em;
+}
+
+
+
+/*Especificidad: 001*/
+h2{
+  text-align: left;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+/*Especificidad: 001, 001*/
+video, table{
+  width: 50%;
+  height: 50%;
+}
+
+/*Especificidad: 001*/
+audio{
+  width: 100%;
+}
+
+/*Especificidad: 001*/
+a {   
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  color: blue;
+}
+
+/*Especificidad: 011, 011*/
+a:hover, a:active{
+  background-color: #fff;
+  color: red;
+}
+
+
+/*Especificidad: 001*/
+p{
+  padding: 1em;
+}
+
+/*Especificidad: 001*/
+ul{
+  list-style-type: none;
+}
+
+/*Especificidad: 001*/
+form{
+  background: #783eea; 
+  padding : 1rem 1.5rem;
+  border-radius: 3em;
+  width: 100%;
+}
+
+/*Especificidad: 001*/
+label {
+  border:none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*Especificidad: 001*/
+input{
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: bold;
+  padding : 1rem 1.5rem;
+  border-radius: 3em;
+  border: none;
+  outline: none;
+  line-height: 0.5em;
+}
+
+/*Especificidad: 001*/
+fieldset{
+  border: 0.2em black solid;
+}
+
+/*Especificidad 001*/
+table{
+  border: 0.4em solid #5c38e0;
+  border-radius: 0.5em;   
+  
+}
+
+/*Especificidad 001, 001*/
+td, th {
+  border: 0.2em solid #783eea;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  background-color: #eee;
+  color: #000;
+}
+
+legend{
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+}
+
+/*Especificidad: 002*/
+main > h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+
+
+/*Especificidad: 014*/
+nav > ul > li> a:hover{
+  background-color: rgba(204, 204, 204, 0.2);
+  color: #783eea;
+}
+
+/*Especificidad: 014*/
+nav > ul > li> a:active{
+  background-color: rgba(204, 204, 204, 0.5);
+  color: #ff00cc;
+}
+
+/*Especificidad: 002*/
+section > a{
+  padding: 2em;
+  color: #fff;
+  background-color: #522cd5;
+  width: 100%;
+  border: 0.2em #522cd5 solid;
+  border-radius: 1em;
+  text-align: center;
+}
+
+
+/*Especificidad: 002*/
+article > ul{
+  list-style: square url('../multimedia/images/NET_Core_Logo3.png');
+  line-height: 2.5em;
+}
+
+
+
+/*Especificidad: 004*/
+footer > ul > li > a{
+  background-color: transparent;
+  color: #fff;
+}
+
+
+
+/*Especificidad 012*/
+section >a:hover, section >a:active{
+  color: #5c38e0;
+  background: #fff;
+  border-color: #783eea; 
+}
+
+
+
